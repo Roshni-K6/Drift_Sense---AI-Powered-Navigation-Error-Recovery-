@@ -108,14 +108,14 @@ AI-Powered-Navigation-Error-Recovery
     └── README.md
 ```
 
----
+
 
 ***How to Run***
 
 **1. Clone the Repository**
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Falcons.git
+git clone https://github.com/Roshni-K6/Drift_Sense_AI-Powered-Navigation-Error-Recovery.git
 cd Falcons
 ```
 
