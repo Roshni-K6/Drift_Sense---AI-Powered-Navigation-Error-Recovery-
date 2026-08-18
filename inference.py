@@ -116,6 +116,5 @@ def main():
     print(f"{x:.2f},{y:.2f}")
     return x, y
 
-
 if __name__ == '__main__':
     main()
