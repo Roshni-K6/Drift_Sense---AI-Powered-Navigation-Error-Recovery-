@@ -36,8 +36,6 @@ The approach is designed for highly repetitive semiconductor structures such as 
 | Framework                 | PyTorch                                   |
 | Localization Method       | Learned Feature Correlation + Soft-Argmax |
 | Input                     | Reference Image + Search Image            |
-| Search Processing Size    | 512 × 512                                 |
-| Reference Processing Size | 51 × 51                                   |
 | Model Parameters          | 60,656                                    |
 | Model Weights             | `model_weights.pt`                        |
 | Output                    | Predicted center `(x, y)`                 |
@@ -132,7 +130,6 @@ Drift_Sense_AI-Powered-Navigation-Error-Recovery/
 
 ```bash
 git clone https://github.com/Roshni-K6/Drift_Sense_AI-Powered-Navigation-Error-Recovery.git
-cd Falcons
 ```
 
 **2. Install Requirements**
@@ -239,11 +236,6 @@ The notebook can be opened directly in **Google Colab** for training.
 ***Results***
 
 The submitted model is a lightweight localization network with **60,656 trainable parameters** and approximately **248 KB** of model weights.
-
-
----
-
-***Why This Approach***
 
 Classical pixel-level template matching can struggle when semiconductor layouts contain many repeated structures with similar appearance.
 
