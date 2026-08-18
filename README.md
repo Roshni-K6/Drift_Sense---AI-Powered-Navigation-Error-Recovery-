@@ -116,8 +116,11 @@ Drift_Sense_AI-Powered-Navigation-Error-Recovery/
 │   ├── test_pair.png
 │   ├── model_size.png
 │   ├── Falcon_model_training_video.mp4
-│   └── failure_analysis.md
 │
+└── failure_analysis/
+│   └── README.md
+│   └── failure_test_case.png
+│ 
 └── references/
     └── references.md
 ```
