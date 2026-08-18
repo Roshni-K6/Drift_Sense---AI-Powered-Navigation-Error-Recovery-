@@ -91,6 +91,34 @@ The dataset generation process records the exact target bounding box and center 
 
 ***Repository Structure***
 
+Drift_Sense_AI-Powered-Navigation-Error-Recovery/
+│
+├── README.md
+├── requirements.txt
+├── generate_dataset.py
+├── inference.py
+│── references
+|
+├── docs
+│   └── solution_presentation.pptx
+│
+├── model/
+│   ├── model_weights.pt
+│   ├── model.onnx
+│   └── model_onnx_config.json
+│
+├── dataset/
+│   └── dataset.zip
+│
+├── results/
+│   ├── example_predictions.png
+│   ├── training_curves.png
+│   ├── test_pair.png
+│   └── failure_analysis.md
+│
+│
+└── LICENSE
+
 ***How to run***
 
 **1. Clone the Repository**
