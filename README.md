@@ -43,7 +43,6 @@ The approach is designed for highly repetitive semiconductor structures such as 
 | Output                    | Predicted center `(x, y)`                 |
 | Target Application        | Wafer Inspection Navigation Recovery      |
 
----
 
 ***How It Works***
 
