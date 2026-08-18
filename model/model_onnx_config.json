@@ -1,0 +1,9 @@
+{
+  "SEARCH_SIZE": 512,
+  "TEMPLATE_SIZE": 51,
+  "SCALE_RATIO": 10.0,
+  "BATCH_SIZE": 8,
+  "EPOCHS": 15,
+  "LR": 0.001,
+  "ORIG_SIZE": 1000.0
+}
