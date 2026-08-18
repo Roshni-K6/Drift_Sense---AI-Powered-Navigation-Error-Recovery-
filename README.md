@@ -91,41 +91,40 @@ The dataset generation process records the exact target bounding box and center 
 
 ***Repository Structure***
 
+## Repository Structure
+
+```text
 Drift_Sense_AI-Powered-Navigation-Error-Recovery/
 │
 ├── README.md
-
 ├── requirements.txt
 ├── generate_dataset.py
 ├── inference.py
-│── references
-|
-
-├── docs
+├── Falcon_model_training.ipynb
+├── LICENSE
+│
+├── docs/
 │   └── solution_presentation.pptx
 │
-
 ├── model/
 │   ├── model_weights.pt
 │   ├── model.onnx
 │   └── model_onnx_config.json
 │
-
 ├── dataset/
 │   └── dataset.zip
 │
-
 ├── results/
 │   ├── test_predictions_30.png
 │   ├── training_curves.png
 │   ├── test_pair.png
+│   ├── model_size.png
+│   ├── Falcon_model_training_video.mp4
 │   └── failure_analysis.md
-    └── model_size.png
-    └── Falcon_model_training_video.mp4
-
 │
-│
-└── LICENSE
+└── references/
+    └── references.md
+```
 
 ***How to run***
 
