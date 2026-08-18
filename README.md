@@ -91,26 +91,7 @@ The dataset generation process records the exact target bounding box and center 
 
 ***Repository Structure***
 
-AI-Powered-Navigation-Error-Recovery
-├── README.md
-├── inference.py
-├── dataset_generator.py
-├── model_weights.pt
-├── Falcons_model_train.ipynb
-├── requirements.txt
-├── MODEL_CARD.md
-│
-├── references/
-│   ├── references.md
-│   └── GENERATOR_PROVENANCE.md
-│
-└── examples/
-    └── README.md
-```
-
-
-
-***How to Run***
+***How to run***
 
 **1. Clone the Repository**
 
