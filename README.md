@@ -69,9 +69,6 @@ A differentiable soft-argmax converts the heatmap into the final predicted cente
 (x, y)
 ```
 
-This allows the complete localization pipeline to be trained directly using ground-truth coordinates.
-
----
 
 ***Dataset Summary***
 
@@ -228,13 +225,6 @@ The notebook can be opened directly in **Google Colab** for training.
 
 The submitted model is a lightweight localization network with **60,656 trainable parameters** and approximately **248 KB** of model weights.
 
-The current checkpoint's detailed evaluation metrics and limitations are documented in:
-
-```text
-MODEL_CARD.md
-```
-
-The repository does not claim perfect localization on highly periodic structures. Extremely repetitive semiconductor layouts remain a challenging case where visually identical sites may require additional positional information beyond image appearance alone.
 
 ---
 
@@ -264,8 +254,6 @@ The repository includes all major components required to reproduce and evaluate 
 The inference script is designed to run without manual modification and accepts the Reference and Search image paths directly as command-line arguments.
 
 ---
-
-***Team***
 
 **Team Falcons**
 
