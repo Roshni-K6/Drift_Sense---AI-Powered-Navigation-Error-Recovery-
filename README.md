@@ -96,7 +96,6 @@ Drift_Sense_AI-Powered-Navigation-Error-Recovery/
 ├── requirements.txt
 ├── generate_dataset.py
 ├── inference.py
-├── Falcon_model_training.ipynb
 ├── LICENSE
 │
 ├── docs/
@@ -106,6 +105,11 @@ Drift_Sense_AI-Powered-Navigation-Error-Recovery/
 │   ├── model_weights.pt
 │   ├── model.onnx
 │   └── model_onnx_config.json
+│
+├── src/
+│   └── Falcon_model_training.ipynb
+│   └── inference.py
+│   └── generate_dataset.py
 │
 ├── dataset/
 │   └── dataset.zip
