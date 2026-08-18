@@ -1,4 +1,4 @@
-# Falcons — AI-Powered Navigation-Error Recovery for Wafer Inspection
+# Falcons : AI-Powered Navigation-Error Recovery for Wafer Inspection
 
 ***Overview***
 
@@ -88,8 +88,6 @@ The dataset generation process records the exact target bounding box and center 
 ---
 
 ***Repository Structure***
-
-## Repository Structure
 
 ```text
 Drift_Sense_AI-Powered-Navigation-Error-Recovery/
